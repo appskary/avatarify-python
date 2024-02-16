@@ -3,8 +3,8 @@
 command -v ./ngrok >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
     echo ngrok is not found, scrutinizing, installing...
-    wget -q -nc https://archive.org/download/ngrok-v3-stable-linux-amd64/ngrok-v3-stable-linux-amd64.zip
-    unzip -qq -n ngrok-v3-stable-linux-amd64.zip
+    wget -q -nc https://archive.org/download/ngrok-stable-linux-amd64_202402/ngrok-stable-linux-amd64.zip
+    unzip -qq -n ngrok-stable-linux-amd64.zip
     echo Done!
 fi
 
